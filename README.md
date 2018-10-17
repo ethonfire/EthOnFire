@@ -31,7 +31,7 @@ baz.watch(function(error, result){console.log(result.args.giftRecipient + " " + 
 # More Info
 1. The OnFire team submits a salt number by way of a hash. The salt number modifies the random number from oraclize to protect against the possibility of a bad actor on the random number generation contract. The salt number is submitted before a round is opened and cannot be changed, because in order to reveal the salt number the hashes must match. 
 
-2. The selfdestruct function burns all of the ETH held in the contract without benefit to the OnFire team.
+2. The selfdestruct function burns all of the ETH held in the contract without benefit to the OnFire team. Burned coins are sent to the wallet address: 0x0000000000000000000000000000000000000000.
 
 
 ##### Credits
