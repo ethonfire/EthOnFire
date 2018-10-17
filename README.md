@@ -4,7 +4,7 @@ Welcome to Eth OnFire. Eth OnFire is a coin burning contract. The OnFire team to
 # How it Works
 1. After the salt number is submitted to the contract by way of hash and the ticket price is set, tickets are open for sale. 
 
-2. After all tickets are sold, a random number must be requested. The random number is requested by any user using the button on the website ("Request Random") or by command line (see "cli" below). The user that successfully requests the random number is gifted the value of one ticket after the coin burn. Their gift can be withdrawn from the contract after the coin burn. Note: there is a 30 minute cool down for the request button/function call.
+2. After all tickets are sold, a random number must be requested. The random number is requested by any user using the button on the website ("Request Random") or by command line (see "cli" below). The user that successfully requests the random number is gifted the value of one ticket after the coin burn. Their gift can be withdrawn from the contract after the coin burn. Note: there is a 30 minute cool down for the request button/function call and the burn button/function call.
 
 3. After the random number is received the salt number is revealed by the OnFire team. The salt number modifies the random number to generate the winning ticket number.
 
