@@ -41,7 +41,7 @@ contract.incinerate({from: your.address, gas: 1000000})
 
 2. The selfdestruct function burns all of the ETH held in the contract without benefit to the OnFire team. Burned coins are sent to the wallet address: 0x0000000000000000000000000000000000000000.
 
-3. What if someone buy 80% of the tickets? The max gift is 30% of the ticket sales. If a player accounts for 80% of the ticket sales that player has spent more on tickets than the maximum possible gift. The maximum gift is set to give the field a better chance at winning the gift than one player willing to buy over half of the tickets. 
+3. What if someone buys 80% of the tickets? The max gift is 30% of the ticket sales. If a player accounts for 80% of the ticket sales that player has spent more on tickets than the maximum possible gift. The maximum gift is set to give the field a better chance at winning the gift than one player willing to buy over half of the tickets. 
 
 
 ##### Credits
